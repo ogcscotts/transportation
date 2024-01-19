@@ -1,0 +1,210 @@
+:Title: OGC Geographic Data Files Standards Working Group Charter
+:titletext: {Title}
+:doctype: book
+:encoding: utf-8
+:lang: en
+:toc:
+:toc-placement!:
+:toclevels: 4
+:numbered:
+:sectanchors:
+:source-highlighter: pygments
+
+<<<
+[cols = ">",frame = "none",grid = "none"]
+|===
+|{set:cellbgcolor:#FFFFFF}
+|[big]*Open Geospatial Consortium*
+|Submission Date: <yyyy-mm-dd>
+|Approval Date: <yyyy-mm-dd>
+|Internal reference number of this OGC(R) document: YY-nnnrx
+|Category: OGC(R) Standards Working Group Charter
+|Authors: Jon Harrod Booth, Trond Hovland, Scott Simmons
+|===
+
+[cols = "^", frame = "none"]
+|===
+|[big]*{titletext}*
+|===
+
+[cols = "^", frame = "none", grid = "none"]
+|===
+|*Copyright notice*
+|Copyright (C) 2024 Open Geospatial Consortium
+|To obtain additional rights of use, visit http://www.opengeospatial.org/legal/
+|===
+
+<<<
+
+To: OGC members & interested parties
+
+A new OGC Standards Working Group (SWG) is being formed. The OGC members listed below have proposed the OGC Geographic Data Files (GDF) SWG.  The SWG proposal provided in this document meets the requirements of the OGC Technical Committee (TC) Policies and Procedures.
+
+The SWG name, statement of purpose, scope, list of deliverables, audience, and language specified in the proposal will constitute the SWG's official charter. Technical discussions may occur no sooner than the SWG's first meeting.
+
+This SWG will operate under the OGC IPR Policy. The eligibility requirements for becoming a participant in the SWG at the first meeting (see details below) are that:
+
+* You must be an employee of an OGC member organization or an individual
+member of OGC;
+
+* The OGC member must have signed the OGC Membership agreement;
+
+* You must notify the SWG chair of your intent to participate to the first meeting. Members may do so by logging onto the OGC Portal and navigating to the Observer page and clicking on the link for the SWG they wish to join and;
+
+* You must attend meetings of the SWG. The first meeting of this SWG is at the time and date fixed below. Attendance may be by teleconference.
+
+Of course, participants also may join the SWG at any time. The OGC and the SWG welcomes all interested parties.
+
+Non-OGC members who wish to participate may contact us about joining the OGC. In addition, the public may access some of the resources maintained for each SWG: the SWG public description, the SWG Charter, Change Requests, and public comments, which will be linked from the SWG's page.
+
+Please feel free to forward this announcement to any other appropriate lists. The OGC is an open standards organization; we encourage your feedback.
+
+== Purpose of the Standards Working Group
+
+The GDF SWG i chartered to create a major revision to the Geographic Data Files Standard (https://www.iso.org/standard/68244.html[ISO 20524-1: 2000] and https://www.iso.org/standard/72494.html[ISO 20524-2: 2020]). The GDF Standard has been managed by ISO/TC 204 through five revisions, but this latest revision has been recommended for work first in OGC to take advantage of the OGC diversity of members and modern aspects of the OGC Standards Baseline for encoding options.
+
+== Business value proposition
+
+////
+This section provides a statement describing the value of this standards activity in relation to the OGC Membership, the geospatial community, and the wider IT community. This statement can be in terms of the interoperability problem being solved, processing Change requests to meet market (and Member requirements), a policy requirement and/or some other business value proposition. The proposition described in this section does not have to be in economic terms.
+////
+
+XXXXX Jon and Trond - who are the primary users of GDF, why does it need update, and why do it in the OGC? XXXXX
+
+== Scope of work
+
+The GDF SWG will create a multipart Standard to provide at least:
+
+* a conceptual model;
+
+* a physical model; and
+
+* one or more encodings.
+
+The SWG will assess whether to split the conceptual and physical models into separate parts or to combine the models into a single part.
+
+The scope of the conceptual and logical models will be informed by the current GDF data model as well as requirements identified in ISO/TC 204 since the time of publication of ISO 20524-1, 2: 2020. Further refinement of the new model content will be determined in SWG meetings and in consultation with other relevant OGC Working Groups and stakeholder communities.
+
+XXXXX Jon and Trond - please describe some specifics of scope that is known, e.g., how much of GDF 5.1 is to be used, what might be removed, what might be added XXXXX
+
+=== Statement of relationship of planned work to the current OGC Standards baseline
+
+OGC publishes Standards that describe road and transportation networks, including the following:
+
+* https://docs.ogc.org/is/15-111r1/15-111r1.html[Land and Infrastructure Conceptual Model] and https://portal.ogc.org/files/?artifact_id=75121[InfraGML 1.0: Part 4 - LandInfra Roads Encoding Standard];
+* https://www.ogc.org/standard/citygml/[CityGML];
+* https://docs.ogc.org/cs/20-072r5/20-072r5.html[CityJSON]; and
+* https://www.ogc.org/standard/cdb/[CDB].
+
+Each of these Standards address road data for different or partially overlapping purposes. GDF offers an opportunity to bridge some common elements amongst these Standards and perhaps to provide additional model components to extend road data encoded in other OGC Standards.
+
+As the GDF Standard will include an encoding Part, OGC work in both XML (https://www.ogc.org/standard/gml/[Geography Markup Language]) and JSON (the emerging Features and Geometries JSON Standard) are suitable for consideration for the encoding format.
+
+=== What is out of scope?
+
+////
+A short description of any activities that will be out of scope for the SWG. For example, a SWG may limit consideration of CRPs after a specified date or milestone.
+////
+
+XXXXX Jon and Trond - anything that you want to ensure is not in scope? XXXXX
+
+=== Specific existing work used as starting point
+
+The primary source for the GDF work is the existing GDF ISO Standard, identified above.
+
+=== Is this a persistent SWG
+
+[x] YES
+
+[ ] NO
+
+=== When can the SWG be inactivated
+
+The SWG can be inactivated once a new revision of GDF is published and no requirements are identified for further update.
+
+== Description of deliverables
+
+=== Initial deliverables
+
+The initial deliverables from the SWG will be a conceptual model (and possibly logical model) Standard part. The SWG will then publish one or more encoding parts for the conceptual/logical model.
+
+XXXXX Jon and Trond - do we think that we could estimate a duration to get to a conceptual model? XXXXX
+
+=== Additional SWG tasks
+
+Not applicable at the time of initial chartering.
+
+== IPR Policy for this SWG
+
+[x] RAND-Royalty Free
+
+[ ] RAND for fee
+
+== Anticipated audience / participants
+
+////
+Description of the target participants in this SWG. For example, if the SWG were focused on a candidate spatial query language standard: Those involved in the design, development, implementation, or use of elements listed above in "Scope of the Work".  This includes search service providers, prospective users of search services exposed as XML, information architects and bibliographic, metadata, and content provider.
+
+This is not meant as a limiting statement but instead is intended to provide guidance to interested potential participants as to whether they wish to participate in this SWG.
+////
+
+XXXXX Jon and Trond - I will rely upon your suggestions XXXXX
+
+== Domain Working Group endorsement
+
+////
+The SWG will list all Domain Working Groups (DWGs) in which the SWG formation was discussed and/or chartered. If a DWG has specifically endorsed the formation of the SWG, then a statement of endorsement should be included.
+////
+
+XXXXX the Transportation and Mobility DWG will be perfect, but these two groups may be approved at roughly the same time. Therefore, I propose the Urban Digital Twins DWG as that DWG is the result of merger of our previous infrastructure DWGs. XXXXX
+
+== Other informative information about the work of this SWG
+
+=== Collaboration
+
+The GDF SWG will collaborate using a public GitHub repository to ensure maximum access to non-OGC Member stakeholders who can make valuable contributions to the requirements gathering for this Standard.
+
+=== Similar or applicable standards work (OGC and elsewhere)
+
+GDF originated in ISO/TC 204 and thus the expertise from that work is resident in ISO.
+
+Other relevant Standards or specification efforts include the following.
+
+* Those Standards referenced above that are published by OGC.
+
+* The Association for Standardization of Automation and Measuring Systems (ASAM) https://www.asam.net/standards/detail/opendrive/[OpenDRIVE] standard.
+
+* https://www.opentnf.org/[OpenTNF].
+
+* buildingSMART https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/[Industry Foundation Classes] (IFCs), which, incidentally, share an alignment model with OGC InfraGML.
+
+* Various national or sub-national Road Data standards, of which there are many.
+
+=== Details of first meeting
+
+The first meeting of the SWG will occur via a web meeting platform within two weeks of approval of this charter.
+
+=== Projected on-going meeting schedule
+
+The work of the SWG will be carried out primarily by email and web meetings, planned for every two weeks, with face-to-face meetings  at each of the OGC Member Meetings.
+
+=== Supporters of this Charter
+
+The following people support this proposal and are committed to the Charter and projected meeting schedule. These members are known as SWG Founding or Charter members. The charter members agree to the SoW and IPR terms as defined in this charter. The charter members have voting rights beginning the day the SWG is officially formed. Charter Members are shown on the public SWG page. Extend the table as necessary.
+
+|===
+|Name |Organization
+| |
+|===
+
+=== Conveners
+
+////
+Name of individual(s) who started the SWG process. Could be the lead for an RFC submission, an OGC staff person, or an individual who believes it is time for a revision to an adopted Standard.
+////
+
+== References
+
+////
+Optional list of references.
+////

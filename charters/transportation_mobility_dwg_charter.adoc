@@ -1,0 +1,154 @@
+:Title: OGC Transportation and Mobility Domain Working Group Charter
+:titletext: {Title}
+:doctype: book
+:encoding: utf-8
+:lang: en
+:toc:
+:toc-placement!:
+:toclevels: 4
+:numbered:
+:sectanchors:
+:source-highlighter: pygments
+
+<<<
+[cols = ">",frame = "none",grid = "none"]
+|===
+|{set:cellbgcolor:#FFFFFF}
+|[big]*Open Geospatial Consortium*
+|Submission Date: <yyyy-mm-dd>
+|Approval Date: <yyyy-mm-dd>
+|Internal reference number of this OGC(R) document: YY-nnnrx
+|Category: OGC(R) Domain Working Group Charter
+|Authors: Jon Harrod Booth, Trond Hovland, Scott Simmons
+|===
+
+[cols = "^", frame = "none"]
+|===
+|[big]*{titletext}*
+|===
+
+[cols = "^", frame = "none", grid = "none"]
+|===
+|*Copyright notice*
+|Copyright (C) 2024 Open Geospatial Consortium
+|To obtain additional rights of use, visit http://www.opengeospatial.org/legal/
+|===
+
+<<<
+
+== Introduction
+
+This Domain Working Group (DWG) charter defines the role for OGC activities within the Transportation and Mobility domain and to provide an open forum for the discussion and presentation of interoperability requirements, use cases, pilots, and implementations of OGC Standards in this domain. This Charter is to be presented to the OGC’s Technical and Planning Committees for consideration.
+
+Domains are distinct Information Communities that defines a user domain where:
+
+* A distinct market, application, or business approach exists;
+
+* Common data definition, structure, syntax, and definitions exists;
+
+* Common user requirements exist; and/or
+
+* Common approach to vendors exists
+
+=== Working Group
+
+Operation of OGC Domain Working Group follows the policies and procedures of the Technical Committee.  The following definition from the Technical Policies and Procedures apply to this DWG Charter template.
+
+*Domain Working Group*: A group (organizationally, a subgroup of the TC) of individuals composed of members of the TC and invited guests, with the specific intent of solving some particular interoperability problem or problems in a particular technology domain for recommendation to the Technical Committee.
+
+Functions of a Domain Working Group are as follows.
+
+* Provide a forum for discussion and documentation of interoperability requirements for a given information or user community.
+
+* Provide a forum to discuss and recommend document actions related to Interoperability Program Reports.
+
+* Develop Change Requests Proposals (CRPs) for existing OGC Standards.
+
+* Develop engineering reports with the intent seeking approval by the TC for release of these documents as OGC White Papers, Discussion Papers or Best Practices Papers.
+
+* Informational presentations and discussions about the market use of adopted OGC Standards.
+
+* Have a formal approved charter that defines the DWGs Scope of Work and estimated timeline for completion of the work.
+
+* Have all-member voting policies (unless otherwise stated).
+
+* Have missions and goals defined by the TC.
+
+A DWG [underline]#Does Not# work on Standards submissions, candidate Standards, or revisions to existing OGC Standards. However, a DWG can develop change requests as document interoperability requirements that can then be submitted as work items to a Standards Working Group (SWG).
+
+A DWG may determine that they wish to have public collaboration, such as in teleconference, email discussions, or a public twiki. In this case, the DWG shall make a motion to the TC to approve public participation in the DWG. Voting in DWGs is by simple majority of OGC Members present at the WG meeting, not just Voting TC Members, with the caveat that no OGC Member organization may cast more than one vote in a WG vote.
+
+== Purpose of Working Group
+
+The Transportation and Mobility DWG is focused on the use of geographic information in planning, operating, and optimizing transportation and mobility systems.
+
+== Problem statement
+
+A number of OGC Working Groups include transportation topics in their discussions and use cases (such as road networks in the Land And Infrastructure Standards Working Group (SWG)), maritime charts in the Marine DWG, or moving objects in the Moving Features SWG). However, these topics are typically focused and of limited scope relevant just to that Working Group. More general consideration of mobility topics in the transportation domain and practice area have not had a dedicated forum in OGC.
+
+== Charter
+
+The general scope of the Transportation and Mobility DWG includes the following topics.
+
+* Geographic representation of transportation networks and environments.
+* Use of spatial and geographic information in the delivery of Intelligent Transport Systems.
+* Use of electronic transportation databases for navigation, routing, and commerce.
+* Multimodal transportation interface descriptions.
+* Logistics optimization and goods mobility.
+* Automation in transportation and mobility systems.
+
+=== Charter members
+
+The initial membership of the <DOMAIN WG> will consist of the following members and individuals with extensive education and experience in <DOMAIN> issues, namely:
+
+<NAME and AFFILIATION>
+
+=== Key activities
+
+The Transportation and Mobility DWG is chartered to undertake the following key activities.
+
+* Identify OGC and related Standards for use in the transportation and mobility domains, including guidance on the best use of those Standards.
+* Assess transportation and mobility use cases that might be addressed by geospatial Standards and practices.
+* Link existing OGC Working Groups that address transportation and mobility topics, directly or indirectly.
+* Liaise with external organizations in the domain, such as ISO/TC 204 Intelligent Transport Systems.
+* Assist with use case development and validation for modernization of the Geographic Data Files (ISO 20524-1, -2) Standard.
+
+=== Business case
+
+Transportation and mobility activities occur in a context that can be represented by geographic information. This context provides a foundation for planning and performing these activities, although the geospatial information was not always created with transportation use cases in mind. The transportation and mobility domain can value from OGC's adherence to FAIR Principles, as follow:
+
+* Findable - development of appropriate metadata for geographic information that describes the suitability of the data for transportation use cases;
+
+* Accessible - provision of geospatial data via systems that interface with those used in the transportation domain;
+
+* Interoperable - encoding and provision of data using OGC Standards such that the data can be integrated with other transportation and mobility information; and
+
+* Reusable - development or use of data models that satisfy multiple transportation, mobility, or general geographic requirements.
+
+== Organizational approach and scope of work
+
+=== Business goals
+
+The Transportation and Mobility DWG is chartered to provide FAIR guidance and resources to the domain per the Business Case above. Specifically, the DWG intends to:
+
+* identify use cases from various transportation and mobility disciplines and recommend the use or creation of Standards to address those use cases;
+
+* develop Best Practices or other documentation of the use of OGC and related Standards in the domain;
+
+* build a community of experts from OGC and its liaison partners, and identify additional relationships which should be explored for collaboration; and
+
+* assist any new SWGs chartered to directly address transportation and mobility topics.
+
+=== Mission and Role
+
+The Transportation and Mobility DWG will concern itself with technology and technology policy issues, focusing on geodata information and technology interests as related to that domain and the means by which those issues are appropriately factored into the OGC standards development process.
+
+=== Activities planned for the DWG
+
+See the Key activities, above.
+
+== References
+
+////
+Optional list of references.
+////
