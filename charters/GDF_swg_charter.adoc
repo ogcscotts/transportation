@@ -15,9 +15,9 @@
 |===
 |{set:cellbgcolor:#FFFFFF}
 |[big]*Open Geospatial Consortium*
-|Submission Date: <yyyy-mm-dd>
+|Submission Date: 2024-02-08
 |Approval Date: <yyyy-mm-dd>
-|Internal reference number of this OGC(R) document: YY-nnnrx
+|Internal reference number of this OGC(R) document: 24-004
 |Category: OGC(R) Standards Working Group Charter
 |Authors: Jon Harrod Booth, Trond Hovland, Scott Simmons
 |===
@@ -65,11 +65,7 @@ The GDF SWG i chartered to create a major revision to the Geographic Data Files 
 
 == Business value proposition
 
-////
-This section provides a statement describing the value of this standards activity in relation to the OGC Membership, the geospatial community, and the wider IT community. This statement can be in terms of the interoperability problem being solved, processing Change requests to meet market (and Member requirements), a policy requirement and/or some other business value proposition. The proposition described in this section does not have to be in economic terms.
-////
-
-XXXXX Jon and Trond - who are the primary users of GDF, why does it need update, and why do it in the OGC? XXXXX
+The GDF Standard provides a standardized basis for the preparation and exchange of conformant data between various interested parties, which include road operators and administrations, entities working on their behalf, private and public sector survey and mapping companies, and companies providing or supporting the road network navigation services.
 
 == Scope of work
 
@@ -77,23 +73,60 @@ The GDF SWG will create a multipart Standard to provide at least:
 
 * a conceptual model;
 
+* a logical model;
+
 * a physical model; and
 
 * one or more encodings.
 
-The SWG will assess whether to split the conceptual and physical models into separate parts or to combine the models into a single part.
+The SWG will assess the approach to splitting the conceptual, logical, and physical models into separate parts. ISO has prepared and published a Technical Report (ISO TR 19169:2021) which has reviewed the existing GDF Standard (2 Parts) and provides analysis and recommendations that should enable a future revision of the GDF Standard to better align to the principle and concepts used within ISO/TC 211 Standards (coming from the Geographic Information and Geomatics domain). These recommendations address a range of topics including: modularization of the Standard; the structure of the overall model; the concepts and approach to be used in the generalized conceptual model; GDF catalogues; guidance on encoding rules; Aligning terminology between GDF and ISO TC 211 Standards; Aligning GDF time domain syntax with other ISO standards; and Adding epoch value to dynamic coordinate reference system in GDF.
 
 The scope of the conceptual and logical models will be informed by the current GDF data model as well as requirements identified in ISO/TC 204 since the time of publication of ISO 20524-1, 2: 2020. Further refinement of the new model content will be determined in SWG meetings and in consultation with other relevant OGC Working Groups and stakeholder communities.
 
-XXXXX Jon and Trond - please describe some specifics of scope that is known, e.g., how much of GDF 5.1 is to be used, what might be removed, what might be added XXXXX
+The existing scope statements for the GDF standard (2 Parts) are as follows.
+
+== Part 1 scope
+
+This part specifies the conceptual and logical data model and physical encoding formats for geographic databases for Intelligent Transport Systems (ITS) applications and services. The part includes a specification of potential contents of such databases (data dictionaries for Features, Attributes and Relationships), a specification of how these contents shall be represented, and of how relevant information about the database itself may be specified (metadata). 
+
+The focus of this part is on ITS applications and services and it emphasizes road and road-related information. ITS applications and services, however, also require information in addition to road and road-related information. 
+
+EXAMPLE 1  ITS applications and services need information about addressing systems in order to specify locations and/or destinations. Consequently, information about the administrative and postal subdivisions of an area is essential. 
+
+EXAMPLE 2  Map display is an important component of ITS applications and services. For proper map display, the inclusion of contextual information such as land and water cover is essential. 
+
+EXAMPLE 3  Point-of-Interest (POI) or service information is a key feature of traveler information. It adds value to end-user ITS applications and services. 
+
+Typical ITS applications and services targeted by this document are in-vehicle or portable navigation systems, traffic management centers, or services linked with road management systems, including public transport systems. 
+
+The Conceptual Data Model has a broader focus than ITS applications and services. It is application independent, allowing for future harmonization of this document with other geographic database standards.
+
+=== Part 2 scope
+
+This part specifies the conceptual and logical data model in addition to the physical encoding formats for geographic databases for ITS applications and services. This document includes a specification of potential contents of such databases (data dictionaries for Features, Attributes and Relationships), a specification of how these contents are to be represented, and how relevant information about the database itself can be specified (metadata). This part further defines map data used in automated driving systems, Cooperative-ITS, and Multi-modal transport.
+
+The focus of this document is firstly on emerging ITS applications and services, such as CooperativeITS and automated driving systems, and it emphasizes road, lane and relevant information on road and lane. However, ITS applications and services also require other information in addition to road and road-related information, which are provided as external databases to connect with GDF and to complement each other. Highly defined public transport databases, for instance, are indispensable in multi-modal transport applications and services in particular. Thus, this document focuses secondly on an expansion of the specification to connect with externally existing databases. It is particularly designed to connect a Transmodel (EN 12896-1 and EN 12896-2) conformant public transport database.
+
+Typical ITS applications and services targeted by this document are in-vehicle or portable navigation systems, traffic management centres, or services linked with road management systems, including public transport systems.
+
+The conceptual data model specified here has a broader focus than ITS applications and services. It is application independent, allowing for future harmonization of this model with other geographic database standards.
+
+=== Additional considerations
+
+It is expected that the process of revision of GDF will require some adjustment to the scope statements.  Assuming that the Standard is modularized, each Part (module) will require a distinct scope statement. The future Parts addressed physical encoding, in general, may be expected to support a more optional nature, with alternative approaches conforming to the revised GDF conceptual and logical model and catalogues being supported by alternative industry-specified physical encoding approaches. 
+
+Further detailed guidance on the basis of modelling road networks from real-world road constructs may be added. Extension of concepts to support modelling of non-road surface transport networks and interconnection with  network models for other modes of transport may also be included.
 
 === Statement of relationship of planned work to the current OGC Standards baseline
 
 OGC publishes Standards that describe road and transportation networks, including the following:
 
 * https://docs.ogc.org/is/15-111r1/15-111r1.html[Land and Infrastructure Conceptual Model] and https://portal.ogc.org/files/?artifact_id=75121[InfraGML 1.0: Part 4 - LandInfra Roads Encoding Standard];
+
 * https://www.ogc.org/standard/citygml/[CityGML];
+
 * https://docs.ogc.org/cs/20-072r5/20-072r5.html[CityJSON]; and
+
 * https://www.ogc.org/standard/cdb/[CDB].
 
 Each of these Standards address road data for different or partially overlapping purposes. GDF offers an opportunity to bridge some common elements amongst these Standards and perhaps to provide additional model components to extend road data encoded in other OGC Standards.
@@ -102,15 +135,11 @@ As the GDF Standard will include an encoding Part, OGC work in both XML (https:/
 
 === What is out of scope?
 
-////
-A short description of any activities that will be out of scope for the SWG. For example, a SWG may limit consideration of CRPs after a specified date or milestone.
-////
-
-XXXXX Jon and Trond - anything that you want to ensure is not in scope? XXXXX
+The SWG will limit the scope of the initial deliverables to the general model expressed in previous versions of the GDF Standard.
 
 === Specific existing work used as starting point
 
-The primary source for the GDF work is the existing GDF ISO Standard, identified above.
+The primary source for the GDF work is the existing GDF ISO Standard, identified above. Also ISO TR 19169.
 
 === Is this a persistent SWG
 
@@ -126,9 +155,9 @@ The SWG can be inactivated once a new revision of GDF is published and no requir
 
 === Initial deliverables
 
-The initial deliverables from the SWG will be a conceptual model (and possibly logical model) Standard part. The SWG will then publish one or more encoding parts for the conceptual/logical model.
+The initial deliverables from the SWG will be a conceptual model (and logical model) Standard part. The SWG will then publish one or more encoding parts for the conceptual/logical model.
 
-XXXXX Jon and Trond - do we think that we could estimate a duration to get to a conceptual model? XXXXX
+The SWG anticipates completing a draft of Part 1 suitable for public comment in the first year of operation.
 
 === Additional SWG tasks
 
@@ -142,21 +171,11 @@ Not applicable at the time of initial chartering.
 
 == Anticipated audience / participants
 
-////
-Description of the target participants in this SWG. For example, if the SWG were focused on a candidate spatial query language standard: Those involved in the design, development, implementation, or use of elements listed above in "Scope of the Work".  This includes search service providers, prospective users of search services exposed as XML, information architects and bibliographic, metadata, and content provider.
-
-This is not meant as a limiting statement but instead is intended to provide guidance to interested potential participants as to whether they wish to participate in this SWG.
-////
-
-XXXXX Jon and Trond - I will rely upon your suggestions XXXXX
+It is expected that the work to revise GDF would be of broad interest, to organizations preparing road network datasets, service providers supporting (vehicle) navigation services, governmental mapping agencies, and representative road administrations and operators.
 
 == Domain Working Group endorsement
 
-////
-The SWG will list all Domain Working Groups (DWGs) in which the SWG formation was discussed and/or chartered. If a DWG has specifically endorsed the formation of the SWG, then a statement of endorsement should be included.
-////
-
-XXXXX the Transportation and Mobility DWG will be perfect, but these two groups may be approved at roughly the same time. Therefore, I propose the Urban Digital Twins DWG as that DWG is the result of merger of our previous infrastructure DWGs. XXXXX
+The Urban Digital Twins DWG, which was chartered to include the former Land and Infrastructure DWG, will be consulted in the chartering process. A Transportation and Mobility DWG is also being considered for charter in the OGC at the time of this SWG chartering activity.
 
 == Other informative information about the work of this SWG
 
@@ -166,7 +185,7 @@ The GDF SWG will collaborate using a public GitHub repository to ensure maximum 
 
 === Similar or applicable standards work (OGC and elsewhere)
 
-GDF originated in ISO/TC 204 and thus the expertise from that work is resident in ISO.
+GDF originated in ISO/TC 204 and thus the expertise from that work is resident in ISO. Collaboration with Working Group 3 of ISO Technical Committee 204 (Intelligent transport systems) and the Joint Working Group between TC 204 and TC 211 (Geographic Information and Geomatics), identified as ISO TC 211 Joint Working Group 11, is foreseen.
 
 Other relevant Standards or specification efforts include the following.
 
@@ -186,7 +205,7 @@ The first meeting of the SWG will occur via a web meeting platform within two we
 
 === Projected on-going meeting schedule
 
-The work of the SWG will be carried out primarily by email and web meetings, planned for every two weeks, with face-to-face meetings  at each of the OGC Member Meetings.
+The work of the SWG will be carried out primarily by email and web meetings, planned for every two weeks, with face-to-face meetings at each of the OGC Member Meetings.
 
 === Supporters of this Charter
 
@@ -199,12 +218,11 @@ The following people support this proposal and are committed to the Charter and 
 
 === Conveners
 
-////
-Name of individual(s) who started the SWG process. Could be the lead for an RFC submission, an OGC staff person, or an individual who believes it is time for a revision to an adopted Standard.
-////
+Jon Harrod Booth, representing ISO/TC 204
+Trond Hovland, representing ISO/TC 211
 
 == References
 
-////
-Optional list of references.
-////
+ISO TR 19169:2021 Gap-analysis: To map and describe the differences between the current GDF and ISO/TC 211 conceptual models to suggest ways harmonize and resolve conflicting issues
+ISO 20524-1:2020 Geographic Data Files (GDF) GDF5.1 - Part 1: Application independent map data shared between multiple sources
+ISO 20524-2:2020 Geographic Data Files (GDF) GDF5.1 - Part 2: Map data used in automated driving systems, Cooperative ITS, and multi-modal transport
