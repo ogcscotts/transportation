@@ -61,7 +61,7 @@ Please feel free to forward this announcement to any other appropriate lists. Th
 
 == Purpose of the Standards Working Group
 
-The GDF SWG i chartered to create a major revision to the Geographic Data Files Standard (https://www.iso.org/standard/68244.html[ISO 20524-1: 2000] and https://www.iso.org/standard/72494.html[ISO 20524-2: 2020]). The GDF Standard has been managed by ISO/TC 204 through five revisions, but this latest revision has been recommended for work first in OGC to take advantage of the OGC diversity of members and modern aspects of the OGC Standards Baseline for encoding options.
+The GDF SWG i chartered to create a major revision to the Geographic Data Files Standard (https://www.iso.org/standard/68244.html[ISO 20524-1: 2020] and https://www.iso.org/standard/72494.html[ISO 20524-2: 2020]). The GDF Standard has been managed by ISO/TC 204 through five revisions, but this latest revision has been recommended for work first in OGC to take advantage of the OGC diversity of members and modern aspects of the OGC Standards Baseline for encoding options.
 
 == Business value proposition
 

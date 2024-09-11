@@ -17,7 +17,7 @@
 |[big]*Open Geospatial Consortium*
 |Submission Date: <yyyy-mm-dd>
 |Approval Date: <yyyy-mm-dd>
-|Internal reference number of this OGC(R) document: YY-nnnrx
+|Internal reference number of this OGC(R) document: 24-012	
 |Category: OGC(R) Domain Working Group Charter
 |Authors: Jon Harrod Booth, Trond Hovland, Scott Simmons
 |===
@@ -91,6 +91,7 @@ A number of OGC Working Groups include transportation topics in their discussion
 The general scope of the Transportation and Mobility DWG includes the following topics.
 
 * Geographic representation of transportation networks and environments.
+* Location referencing and positioning for transportation and mobility
 * Use of spatial and geographic information in the delivery of Intelligent Transport Systems.
 * Use of electronic transportation databases for navigation, routing, and commerce.
 * Multimodal transportation interface descriptions.
@@ -99,9 +100,16 @@ The general scope of the Transportation and Mobility DWG includes the following 
 
 === Charter members
 
-The initial membership of the <DOMAIN WG> will consist of the following members and individuals with extensive education and experience in <DOMAIN> issues, namely:
+The initial membership of the Transportation and Mobility DWG will consist of the following members and individuals with extensive education and experience in transportation and mobility issues, namely:
 
-<NAME and AFFILIATION>
+* Jon Harrod Booth, representing ISO/TC 204
+* Trond Hovland, representing ISO/TC 211
+* Knut Jetlund, Kartverket
+* Don Sullivan, U.S. National Aeronautics and Space Administration (NASA)
+* Ki-Joune Li, Pusan National University
+* Michael Scholz, Deutsches Zentrum für Luft- und Raumfahrt e.V. (DLR)
+* Christian Rahmig, DLR
+* Dean Carstens, HERE Technologies
 
 === Key activities
 
@@ -112,6 +120,7 @@ The Transportation and Mobility DWG is chartered to undertake the following key 
 * Link existing OGC Working Groups that address transportation and mobility topics, directly or indirectly.
 * Liaise with external organizations in the domain, such as ISO/TC 204 Intelligent Transport Systems.
 * Assist with use case development and validation for modernization of the Geographic Data Files (ISO 20524-1, -2) Standard.
+* Identify commonalities between existing and forecast transportation-related Standards, including proposed work on High Definition Maps.
 
 === Business case
 
