@@ -15,8 +15,8 @@
 |===
 |{set:cellbgcolor:#FFFFFF}
 |[big]*Open Geospatial Consortium*
-|Submission Date: <yyyy-mm-dd>
-|Approval Date: <yyyy-mm-dd>
+|Submission Date: 2024-04-08
+|Approval Date: 2024-09-02
 |Internal reference number of this OGC(R) document: 24-012	
 |Category: OGC(R) Domain Working Group Charter
 |Authors: Jon Harrod Booth, Trond Hovland, Scott Simmons
